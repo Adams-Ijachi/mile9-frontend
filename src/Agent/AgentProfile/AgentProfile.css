@@ -1,0 +1,11 @@
+.profile__media {
+  display: grid;
+  place-items: center;
+}
+
+.profile__avatar {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}

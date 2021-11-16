@@ -1,0 +1,63 @@
+.email-copy {
+  width: 100%;
+  margin-top: 1rem;
+
+  display: grid;
+  place-items: center;
+}
+
+.email-copy p {
+  width: 100%;
+}
+
+.fluid {
+  width: 100%;
+  min-height: 100vh;
+
+  display: grid;
+  place-items: center;
+}
+
+.card-container {
+  width: 100%;
+  height: auto;
+}
+
+.card-actions {
+  display: grid;
+  place-items: center;
+}
+.back-btn {
+  cursor: pointer;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.back-btn:hover {
+  background-color: #fe634e;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.row-action {
+  width: 80%;
+}
+
+.btn-action {
+  margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 780px) {
+
+  .email-copy p {
+    width: 60%;
+  }
+
+  .card-container {
+    width: 80%;
+  }
+
+  .row-action {
+    width: 50%;
+  }
+}

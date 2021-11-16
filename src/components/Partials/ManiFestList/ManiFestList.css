@@ -1,0 +1,33 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__container .form__fields {
+  flex-direction: column;
+}
+
+.form__container .form__input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 780px) {
+  .form__container {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .form__container .form__fields {
+    width: 80%;
+  }
+
+  .form__container .form__btn {
+    margin-top: 1.45rem;
+    width: 18%;
+  }
+  .form__container .form__input {
+    width: 50%;
+  }
+}

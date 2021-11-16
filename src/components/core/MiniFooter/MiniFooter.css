@@ -1,0 +1,22 @@
+.mini-footer {
+  display: grid;
+  place-items: center;
+
+  width: 100%;
+  background-color: #F4F6FA;
+
+  position: fixed;
+  bottom: 0;
+}
+
+.auth-footer {
+  width: 100%;
+  background-color: #F4F6FA;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+}

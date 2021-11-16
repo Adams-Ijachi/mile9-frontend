@@ -1,0 +1,18 @@
+.d-app-flex {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.overline {
+  letter-spacing: 2pt;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 780px) {
+  .d-app-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

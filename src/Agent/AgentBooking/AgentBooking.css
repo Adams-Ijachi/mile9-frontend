@@ -1,0 +1,28 @@
+.overline {
+  letter-spacing: 2pt;
+  font-weight: 300;
+}
+
+.modal-card {
+  visibility: hidden;
+}
+
+.card-modal {
+  height: 100%;
+  width: 100%;
+  border-radius: 19px;
+  overflow: hidden;
+  border: none;
+}
+
+.card-modal__header {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.card-modal__body {
+  margin-top: -1rem;
+  border-radius: 19px;
+}

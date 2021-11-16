@@ -1,0 +1,29 @@
+.schedule-card:hover {
+  transform: translateY(-.2rem);
+}
+
+.schedule-card__media {
+  display: grid;
+  place-items: center;
+}
+
+.schedule-card__avatar {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.list-card {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between;
+}
+
+.list-actions:hover {
+  transform: scale(1.05);
+}
